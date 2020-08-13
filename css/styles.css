@@ -20,3 +20,28 @@ body {
     width: 500px;
     margin-top: 20;
 }
+
+#row2 {
+    padding-top: 92px;
+    padding-left: 63px;
+}
+
+#row2-inside {
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 40px;
+    width: 396px;
+    text-align: center;
+}
+
+#input-credentials1, #input-credentials2 {
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+}
