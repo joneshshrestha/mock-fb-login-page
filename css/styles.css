@@ -2,13 +2,17 @@ body {
     background-color: #F0F2F5;
 }
 
-.main{
+#fb-image {
+    height: 106px;
+    margin: -28px;
+}
+#row1{
     box-sizing: border-box;
     margin-top: 204;
-    margin-left: 142
+    margin-left: 65
 }
 
-.content h2{
+#fb-text{
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
     font-size: 28px;
     font-weight: normal;
@@ -16,9 +20,3 @@ body {
     width: 500px;
     margin-top: 20;
 }
-
-.content img {
-    height: 106px;
-    margin: -28px;
-}
-    
