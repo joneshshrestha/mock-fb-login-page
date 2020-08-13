@@ -39,19 +39,27 @@ body {
     text-align: center;
 }
 
-#input-credentials1, #input-credentials2 {
+#input-credentials1{
+    padding: 5px 17px;
+    margin-bottom: 3px;
+    width: 399px;
+}
+
+#input-credentials2 {
     padding: 5px 17px;
     width: 399px;
+    margin-bottom: 6px;
 }
 
 #login-btn {
     background-color: #1877f2;
+    font-weight: 600;
     border: none;
     border-radius: 6px;
     font-size: 20px;
     line-height: 48px;
     padding: 0 16px;
-    width: 332px;
+    width: 365px;
 }
 
 #forget-btn {
@@ -69,7 +77,9 @@ body {
 }
 
 #create-btn {
+    background-color: #42B72B;
     border: none;
+    font-weight: 600;
     border-radius: 6px;
     font-size: 17px;
     line-height: 48px;
@@ -88,5 +98,6 @@ body {
     font-size: 14px;
     font-weight: normal;
     padding-top: 0;
+    padding-left: 50px;
 }
 
