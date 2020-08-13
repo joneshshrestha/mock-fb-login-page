@@ -34,16 +34,14 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
     box-sizing: border-box;
     margin: 40px 0 0;
-    padding: 20px 0 40px;
+    padding: 11px 0 0px;
     width: 396px;
     text-align: center;
 }
 
 #input-credentials1, #input-credentials2 {
-    font-size: 17px;
-    padding: 14px 16px;
-    width: 330px;
-    border-radius: 6px;
+    padding: 5px 17px;
+    width: 399px;
 }
 
 #login-btn {
@@ -57,7 +55,9 @@ body {
 }
 
 #forget-btn {
-
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 #line {
@@ -75,3 +75,18 @@ body {
     line-height: 48px;
     padding: 0 16px;
 }
+
+#small-margin {
+    margin-top: 28px;
+    text-align: center;
+}
+
+#outside-text {
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+}
+
