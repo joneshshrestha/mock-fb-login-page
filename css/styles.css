@@ -34,7 +34,7 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
     box-sizing: border-box;
     margin: 40px 0 0;
-    padding: 11px 0px;
+    padding: 9px 0px;
     width: 396px;
     text-align: center;
 }
@@ -109,21 +109,3 @@ body {
 
 /* 1. rounded border
 2. 2. padding  */
-
-::-webkit-input-placeholder {
-    font-size: 17px!important;
-    padding-left: 5px;
- }
- 
- :-moz-placeholder { /* Firefox 18- */
-    font-size: 17px!important;
-    padding-left: 5px;
-
-       
- }
- ::-moz-placeholder {  /* Firefox 19+ */
-    font-size: 17px!important;
-    padding-left: 5px;
-
-
- }
