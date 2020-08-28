@@ -14,7 +14,9 @@ app.get('/', (req, res) => {
 })
 
 app.post('/', function(req, res) {
-  console.log(req.body)
+  console.log(req.body.username)
+  console.log(req.body.password)
+
 });
 
 app.listen(port, () => {

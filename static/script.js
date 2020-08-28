@@ -1,7 +1,7 @@
-var username, password
+// var username, password
 
-document.getElementById("login-btn").addEventListener("click", function(e) {
-   e.preventDefault()
-   username = (document.getElementById('user').value)
-   password = (document.getElementById('password').value)
-})
+// document.getElementById("login-btn").addEventListener("click", function(e) {
+//    e.preventDefault()
+//    username = (document.getElementById('user').value)
+//    password = (document.getElementById('password').value)
+// })
